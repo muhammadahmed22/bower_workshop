@@ -46,7 +46,8 @@ $> bower search angular
 3- install the dependencies locally
 
 ```bash
-bower install --save-dev
+# example
+bower install your_dependency --save-dev
 ```
 
 4- Find where bower have located the dependencies and replace the current ones
