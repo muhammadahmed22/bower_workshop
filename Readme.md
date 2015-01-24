@@ -23,7 +23,7 @@ Run the installer.sh located on the root of the repo
 2- Install bower globally in your system
 
 ```bash
-$> sudo npm insatll 
+$> npm install -g bower
 ```
 
 #### Action begins
