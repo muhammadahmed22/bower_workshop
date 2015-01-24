@@ -22,10 +22,6 @@ make
 sudo make install
 ```
 
-```bash
-./install.sh
-```
-
 2- Install bower globally in your system
 
 ```bash
