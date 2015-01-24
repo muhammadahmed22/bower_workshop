@@ -14,7 +14,13 @@ Fork this repository then `cd` to it
 
 or 
 
-Run the installer.sh located on the root of the repo 
+```bash
+git clone git://github.com/ry/node.git
+cd node
+./configure
+make
+sudo make install
+```
 
 ```bash
 ./install.sh
