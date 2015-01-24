@@ -4,7 +4,7 @@ Workshop duration 10 minutes
 
 #### Step 1
 
-Fork this repository
+Fork this repository then `cd` to it
 
 #### Step 2
 
@@ -28,12 +28,18 @@ $> npm install -g bower
 
 #### Action begins
 
-1- Open index.html in your editor
-2- Locate the files on the template and search for them using bower
-
-example
+1- Add a bower.json file
 
 ```bash
+# Fill the file with your name and follow the options
+$> bower init
+```
+
+2- Open index.html in your editor Locate the dependencies files on the template then search for them using bower
+
+
+```bash
+# Example
 $> bower search angular
 ```
 
@@ -45,6 +51,18 @@ bower install --save-dev
 
 4- Find where bower have located the dependencies and replace the current ones
 5- Add bower modules to .gitignore
-6- Commit and push your changes to the repository
+
+Add a .gitignore file on the root of the repo
+```bash
+touch .gitignore && vim .gitignore
+```
+
+then add this line `.bower_modules/`
 
 
+6- Commit and push your changes to your forked repository
+
+```bash
+git add . && git commit -m 'Done' && git push
+
+```
