@@ -59,7 +59,7 @@ Add a .gitignore file on the root of the repo
 touch .gitignore && vim .gitignore
 ```
 
-then add this line `.bower_modules/`
+then add this line `.bower_components/`
 
 
 6- Commit and push your changes to your forked repository
