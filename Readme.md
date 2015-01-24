@@ -28,31 +28,31 @@ $> npm install -g bower
 
 #### Action begins
 
-1- Add a bower.json file
+1- **Add a bower.json file**
 
 ```bash
 # Fill the file with your name and follow the options
 $> bower init
 ```
 
-2- Open index.html in your editor Locate the dependencies files on the template then search for them using bower
+2- **Locate dependencies in the index.html file then search for them using bower**
 
-
+The bower search command is
 ```bash
 # Example
 $> bower search angular
 ```
 
-3- install the dependencies locally
+3- **install the dependencies locally**
 
 ```bash
 # example
 bower install your_dependency --save-dev
 ```
 
-4- Find where bower have located the dependencies and update the index.html file with the minified dependencies
+4- **Update the index.html file with the minified dependencies**
 
-5- Add bower modules to .gitignore
+5- **Add bower modules to .gitignore**
 
 Add a .gitignore file on the root of the repo
 ```bash
@@ -62,7 +62,7 @@ touch .gitignore && vim .gitignore
 then add this line `.bower_components/`
 
 
-6- Commit and push your changes to your forked repository
+6- **Commit and push**
 
 ```bash
 git add . && git commit -m 'Done' && git push
