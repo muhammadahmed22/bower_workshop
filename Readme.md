@@ -50,7 +50,8 @@ $> bower search angular
 bower install your_dependency --save-dev
 ```
 
-4- Find where bower have located the dependencies and replace the current ones
+4- Find where bower have located the dependencies and update the index.html file with the minified dependencies
+
 5- Add bower modules to .gitignore
 
 Add a .gitignore file on the root of the repo
